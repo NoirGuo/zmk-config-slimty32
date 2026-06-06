@@ -28,8 +28,8 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - C
+  - B
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
   '1':

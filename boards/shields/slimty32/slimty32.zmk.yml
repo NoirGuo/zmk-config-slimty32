@@ -1,0 +1,12 @@
+file_format: "1"
+id: slimty32
+name: Slimty32
+type: shield
+url: https://github.com/NoirGuo/zmk-config-slimty32
+requires: [pro_micro]
+features:
+  - keys
+  - encoder
+siblings:
+  - slimty32_left
+  - slimty32_right

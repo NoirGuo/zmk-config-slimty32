@@ -1,0 +1,21 @@
+/*
+ * Copyright (c) 2020 ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+ 
+#include "slimty32.dtsi"
+
+&default_transform {
+    col-offset = <4>;
+}; 
+
+&kscan0 {
+	col-gpios
+		= <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&gpio0  2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&gpio0 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		, <&gpio0 30 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+		;
+};

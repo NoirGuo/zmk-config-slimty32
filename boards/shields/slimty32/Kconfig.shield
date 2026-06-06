@@ -1,0 +1,5 @@
+config SHIELD_SLIMTY32_LEFT
+    def_bool $(shields_list_contains,slimty32_left)
+
+config SHIELD_SLIMTY32_RIGHT
+    def_bool $(shields_list_contains,slimty32_right)

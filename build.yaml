@@ -15,18 +15,24 @@
 include:
   - board: nice_nano//zmk
     shield: slimty32_left
+    artifact-name: slimty32-nicenano-left
   - board: nice_nano//zmk
     shield: slimty32_right
+    artifact-name: slimty32-nicenano-right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: nice_nano//zmk
     shield: settings_reset
+    artifact-name: slimty32-nicenano-settings-reset
 
   - board: nrfmicro/nrf52840/zmk
     shield: slimty32_left
+    artifact-name: slimty32-nrfmicro-left
   - board: nrfmicro/nrf52840/zmk
     shield: slimty32_right
+    artifact-name: slimty32-nrfmicro-right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y -DCONFIG_ZMK_STUDIO_LOCKING=n
   - board: nrfmicro/nrf52840/zmk
     shield: settings_reset
+    artifact-name: slimty32-nrfmicro-settings-reset

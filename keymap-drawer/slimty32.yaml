@@ -10,7 +10,7 @@ layers:
   - Y
   - U
   - I
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - A
   - S
   - D
@@ -28,9 +28,9 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - C
-  - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-control$$
+  - LGUI
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   '1':
   - {t: '`', s: '~'}

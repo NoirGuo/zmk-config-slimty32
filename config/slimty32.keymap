@@ -40,7 +40,7 @@
                        &kp C  &kp B  &none  &kp RIGHT_ALT
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_1 {
@@ -50,6 +50,8 @@
 &kp LEFT_SHIFT  &kp PLUS  &kp MINUS  &kp ASTERISK  &kp FSLH  &kp DOT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET
                           &kp EQUAL  &none         &none     &kp LEFT_WIN
             >;
+
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_2 {
